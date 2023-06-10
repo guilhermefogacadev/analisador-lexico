@@ -164,7 +164,7 @@ transitions = {
               's': 'id', 't': 'id', 'u': 'id', 'v': 'id', 'w': 'id', 'x': 'id',
               'y': 'id', 'z': 'id', '0': 'number', '1': 'number', '2': 'number', '3': 'number',
               '4': 'number','5': 'number', '6': 'number', '7': 'number', '8': 'number', '9': 'number',
-                '+':'idMais','-':'idMenos','=':'idIgual','>':'maior','<':'menor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
+                '+':'idMais','-':'idMenos','=':'idIgual','>':'idMaior','<':'idMenor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
             '(':'idAParenteses',')':'idFParenteses','{':'idAChave', '}':'idFChave', '[':'idAColchete',']':'idFColchete', ';':'idPontoVirgula', ',':'idVirgula','\n':'idEspaco',' ':'idEspaco'},
   
   
@@ -174,7 +174,7 @@ transitions = {
               's': 'id', 't': 'id', 'u': 'id', 'v': 'id', 'w': 'id', 'x': 'id',
               'y': 'id', 'z': 'id', '0': 'number', '1': 'number', '2': 'number', '3': 'number',
               '4': 'number','5': 'number', '6': 'number', '7': 'number', '8': 'number', '9': 'number',
-                '+':'mais','-':'menos','=':'idIgual','>':'maior','<':'menor','*':'multiplica','/':'divide','!':'diferenteEsclamacao',
+                '+':'mais','-':'menos','=':'idIgual','>':'idMaior','<':'idMenor','*':'multiplica','/':'divide','!':'diferenteEsclamacao',
             '(':'parentesesA',')':'parentesesF','{':'chaveA', '}':'chaveF', '[':'colcheteA',']':'colcheteF', ';':'pontoVirgula',
            ',':'virgula','\n':'q0',' ':'q0'},
     
@@ -184,7 +184,7 @@ transitions = {
               's': 'id', 't': 'intT', 'u': 'id', 'v': 'id', 'w': 'id', 'x': 'id',
               'y': 'id', 'z': 'id', '0': 'number', '1': 'number', '2': 'number', '3': 'number',
               '4': 'number','5': 'number', '6': 'number', '7': 'number', '8': 'number', '9': 'number',
-                '+':'idMais','-':'idMenos','=':'idIgual','>':'maior','<':'menor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
+                '+':'idMais','-':'idMenos','=':'idIgual','>':'idMaior','<':'idMenor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
             '(':'idAParenteses',')':'idFParenteses','{':'idAChave', '}':'idFChave', '[':'idAColchete',']':'idFColchete', ';':'idPontoVirgula', ',':'idVirgula','\n':'idEspaco',' ':'idEspaco'},
   
     'intT': {'a': 'id', 'b': 'id', 'c': 'id', 'd': 'id', 'e': 'id', 'f': 'id',
@@ -337,7 +337,7 @@ transitions = {
               's': 'elseS', 't': 'id', 'u': 'id', 'v': 'id', 'w': 'id', 'x': 'id',
               'y': 'id', 'z': 'id', '0': 'number', '1': 'number', '2': 'number', '3': 'number',
               '4': 'number','5': 'number', '6': 'number', '7': 'number', '8': 'number', '9': 'number',
-                '+':'idMais','-':'idMenos','=':'idIgual','>':'maior','<':'menor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
+                '+':'idMais','-':'idMenos','=':'idIgual','>':'idMaior','<':'idMenor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
             '(':'idAParenteses',')':'idFParenteses','{':'idAChave', '}':'idFChave', '[':'idAColchete',']':'idFColchete', ';':'idPontoVirgula', ',':'idVirgula','\n':'idEspaco',' ':'idEspaco'},
   
   'whileH': {'a': 'id', 'b': 'id', 'c': 'id', 'd': 'id', 'e': 'id', 'f': 'id',
@@ -346,7 +346,7 @@ transitions = {
               's': 'elseS', 't': 'id', 'u': 'id', 'v': 'id', 'w': 'id', 'x': 'id',
               'y': 'id', 'z': 'id', '0': 'number', '1': 'number', '2': 'number', '3': 'number',
               '4': 'number','5': 'number', '6': 'number', '7': 'number', '8': 'number', '9': 'number',
-                '+':'idMais','-':'idMenos','=':'idIgual','>':'maior','<':'menor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
+                '+':'idMais','-':'idMenos','=':'idIgual','>':'idMaior','<':'idMenor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
             '(':'idAParenteses',')':'idFParenteses','{':'idAChave', '}':'idFChave', '[':'idAColchete',']':'idFColchete', ';':'idPontoVirgula', ',':'idVirgula','\n':'idEspaco',' ':'idEspaco'},
   
   'whileI':  {'a': 'id', 'b': 'id', 'c': 'id', 'd': 'id', 'e': 'id', 'f': 'id',
@@ -355,7 +355,7 @@ transitions = {
               's': 'elseS', 't': 'id', 'u': 'id', 'v': 'id', 'w': 'id', 'x': 'id',
               'y': 'id', 'z': 'id', '0': 'number', '1': 'number', '2': 'number', '3': 'number',
               '4': 'number','5': 'number', '6': 'number', '7': 'number', '8': 'number', '9': 'number',
-                '+':'idMais','-':'idMenos','=':'idIgual','>':'maior','<':'menor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
+                '+':'idMais','-':'idMenos','=':'idIgual','>':'idMaior','<':'idMenor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
             '(':'idAParenteses',')':'idFParenteses','{':'idAChave', '}':'idFChave', '[':'idAColchete',']':'idFColchete', ';':'idPontoVirgula', ',':'idVirgula','\n':'idEspaco',' ':'idEspaco'},
   
   
@@ -365,7 +365,7 @@ transitions = {
               's': 'elseS', 't': 'id', 'u': 'id', 'v': 'id', 'w': 'id', 'x': 'id',
               'y': 'id', 'z': 'id', '0': 'number', '1': 'number', '2': 'number', '3': 'number',
               '4': 'number','5': 'number', '6': 'number', '7': 'number', '8': 'number', '9': 'number',
-               '+':'idMais','-':'idMenos','=':'idIgual','>':'maior','<':'menor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
+               '+':'idMais','-':'idMenos','=':'idIgual','>':'idMaior','<':'idMenor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
             '(':'idAParenteses',')':'idFParenteses','{':'idAChave', '}':'idFChave', '[':'idAColchete',']':'idFColchete', ';':'idPontoVirgula', ',':'idVirgula','\n':'idEspaco',' ':'idEspaco'},
   
   
@@ -385,7 +385,7 @@ transitions = {
               's': 'id', 't': 'id', 'u': 'id', 'v': 'id', 'w': 'id', 'x': 'id',
               'y': 'id', 'z': 'id', '0': 'number', '1': 'number', '2': 'number', '3': 'number',
               '4': 'number','5': 'number', '6': 'number', '7': 'number', '8': 'number', '9': 'number',
-                '+':'idMais','-':'idMenos','=':'idIgual','>':'maior','<':'menor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
+                '+':'idMais','-':'idMenos','=':'idIgual','>':'idMaior','<':'idMenor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
             '(':'idAParenteses',')':'idFParenteses','{':'idAChave', '}':'idFChave', '[':'idAColchete',']':'idFColchete', ';':'idPontoVirgula', ',':'idVirgula','\n':'idEspaco',' ':'idEspaco'},
 
   'elseL': {'a': 'id', 'b': 'id', 'c': 'id', 'd': 'id', 'e': 'id', 'f': 'id',
@@ -394,7 +394,7 @@ transitions = {
               's': 'elseS', 't': 'id', 'u': 'id', 'v': 'id', 'w': 'id', 'x': 'id',
               'y': 'id', 'z': 'id', '0': 'number', '1': 'number', '2': 'number', '3': 'number',
               '4': 'number','5': 'number', '6': 'number', '7': 'number', '8': 'number', '9': 'number',
-                '+':'idMais','-':'idMenos','=':'idIgual','>':'maior','<':'menor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
+                '+':'idMais','-':'idMenos','=':'idIgual','>':'idMaior','<':'idMenor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
             '(':'idAParenteses',')':'idFParenteses','{':'idAChave', '}':'idFChave', '[':'idAColchete',']':'idFColchete', ';':'idPontoVirgula', ',':'idVirgula','\n':'idEspaco',' ':'idEspaco'},
   
   'elseS': {'a': 'id', 'b': 'id', 'c': 'id', 'd': 'id', 'e': 'elseEE', 'f': 'id',
@@ -403,7 +403,7 @@ transitions = {
               's': 'id', 't': 'id', 'u': 'id', 'v': 'id', 'w': 'id', 'x': 'id',
               'y': 'id', 'z': 'id', '0': 'number', '1': 'number', '2': 'number', '3': 'number',
               '4': 'number','5': 'number', '6': 'number', '7': 'number', '8': 'number', '9': 'number',
-                '+':'idMais','-':'idMenos','=':'idIgual','>':'maior','<':'menor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
+                '+':'idMais','-':'idMenos','=':'idIgual','>':'idMaior','<':'idMenor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
             '(':'idAParenteses',')':'idFParenteses','{':'idAChave', '}':'idFChave', '[':'idAColchete',']':'idFColchete', ';':'idPontoVirgula', ',':'idVirgula','\n':'idEspaco',' ':'idEspaco'},
   
   'elseEE': {'a': 'id', 'b': 'id', 'c': 'id', 'd': 'id', 'e': 'id', 'f': 'id',
@@ -423,7 +423,7 @@ transitions = {
               's': 'id', 't': 'id', 'u': 'id', 'v': 'id', 'w': 'id', 'x': 'id',
               'y': 'id', 'z': 'id', '0': 'number', '1': 'number', '2': 'number', '3': 'number',
               '4': 'number','5': 'number', '6': 'number', '7': 'number', '8': 'number', '9': 'number',
-                '+':'idMais','-':'idMenos','=':'idIgual','>':'maior','<':'menor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
+                '+':'idMais','-':'idMenos','=':'idIgual','>':'idMaior','<':'idMenor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
             '(':'idAParenteses',')':'idFParenteses','{':'idAChave', '}':'idFChave', '[':'idAColchete',']':'idFColchete', ';':'idPontoVirgula', ',':'idVirgula','\n':'idEspaco',' ':'idEspaco'},
   
   'voidO':{'a': 'id', 'b': 'id', 'c': 'id', 'd': 'id', 'e': 'id', 'f': 'id',
@@ -432,7 +432,7 @@ transitions = {
               's': 'id', 't': 'id', 'u': 'id', 'v': 'id', 'w': 'id', 'x': 'id',
               'y': 'id', 'z': 'id', '0': 'number', '1': 'number', '2': 'number', '3': 'number',
               '4': 'number','5': 'number', '6': 'number', '7': 'number', '8': 'number', '9': 'number',
-                '+':'idMais','-':'idMenos','=':'idIgual','>':'maior','<':'menor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
+                '+':'idMais','-':'idMenos','=':'idIgual','>':'idMaior','<':'idMenor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
             '(':'idAParenteses',')':'idFParenteses','{':'idAChave', '}':'idFChave', '[':'idAColchete',']':'idFColchete', ';':'idPontoVirgula', ',':'idVirgula','\n':'idEspaco',' ':'idEspaco'},
 
   'voidI':{'a': 'id', 'b': 'id', 'c': 'id', 'd': 'voidD', 'e': 'id', 'f': 'id',
@@ -441,7 +441,7 @@ transitions = {
               's': 'id', 't': 'id', 'u': 'id', 'v': 'id', 'w': 'id', 'x': 'id',
               'y': 'id', 'z': 'id', '0': 'number', '1': 'number', '2': 'number', '3': 'number',
               '4': 'number','5': 'number', '6': 'number', '7': 'number', '8': 'number', '9': 'number',
-                '+':'idMais','-':'idMenos','=':'idIgual','>':'maior','<':'menor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
+                '+':'idMais','-':'idMenos','=':'idIgual','>':'idMaior','<':'idMenor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
             '(':'idAParenteses',')':'idFParenteses','{':'idAChave', '}':'idFChave', '[':'idAColchete',']':'idFColchete', ';':'idPontoVirgula', ',':'idVirgula','\n':'idEspaco',' ':'idEspaco'},
 
   'voidD':{'a': 'id', 'b': 'id', 'c': 'id', 'd': 'id', 'e': 'id', 'f': 'id',
@@ -461,7 +461,7 @@ transitions = {
               's': 'id', 't': 'id', 'u': 'id', 'v': 'id', 'w': 'id', 'x': 'id',
               'y': 'id', 'z': 'id', '0': 'number', '1': 'number', '2': 'number', '3': 'number',
               '4': 'number','5': 'number', '6': 'number', '7': 'number', '8': 'number', '9': 'number',
-               '+':'idMais','-':'idMenos','=':'idIgual','>':'maior','<':'menor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
+               '+':'idMais','-':'idMenos','=':'idIgual','>':'idMaior','<':'idMenor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
             '(':'returnAParenteses',')':'idFParenteses','{':'idAChave', '}':'idFChave', '[':'idAColchete',']':'idFColchete', ';':'idPontoVirgula', ',':'idVirgula','\n':'idEspaco',' ':'idEspaco'},
 
     'returnE':{'a': 'id', 'b': 'id', 'c': 'id', 'd': 'id', 'e': 'id', 'f': 'id',
@@ -470,7 +470,7 @@ transitions = {
               's': 'id', 't': 'returnT', 'u': 'id', 'v': 'id', 'w': 'id', 'x': 'id',
               'y': 'id', 'z': 'id', '0': 'number', '1': 'number', '2': 'number', '3': 'number',
               '4': 'number','5': 'number', '6': 'number', '7': 'number', '8': 'number', '9': 'number',
-                '+':'idMais','-':'idMenos','=':'idIgual','>':'maior','<':'menor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
+                '+':'idMais','-':'idMenos','=':'idIgual','>':'idMaior','<':'idMenor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
             '(':'idAParenteses',')':'idFParenteses','{':'idAChave', '}':'idFChave', '[':'idAColchete',']':'idFColchete', ';':'idPontoVirgula', ',':'idVirgula','\n':'idEspaco',' ':'idEspaco'},
   
     'returnT':{'a': 'id', 'b': 'id', 'c': 'id', 'd': 'id', 'e': 'id', 'f': 'id',
@@ -479,7 +479,7 @@ transitions = {
               's': 'id', 't': 'id', 'u': 'returnU', 'v': 'id', 'w': 'id', 'x': 'id',
               'y': 'id', 'z': 'id', '0': 'number', '1': 'number', '2': 'number', '3': 'number',
               '4': 'number','5': 'number', '6': 'number', '7': 'number', '8': 'number', '9': 'number',
-                '+':'idMais','-':'idMenos','=':'idIgual','>':'maior','<':'menor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
+                '+':'idMais','-':'idMenos','=':'idIgual','>':'idMaior','<':'idMenor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
             '(':'idAParenteses',')':'idFParenteses','{':'idAChave', '}':'idFChave', '[':'idAColchete',']':'idFColchete', ';':'idPontoVirgula', ',':'idVirgula','\n':'idEspaco',' ':'idEspaco'},
 
     'returnU':{'a': 'id', 'b': 'id', 'c': 'id', 'd': 'id', 'e': 'id', 'f': 'id',
@@ -488,7 +488,7 @@ transitions = {
               's': 'id', 't': 'id', 'u': 'id', 'v': 'id', 'w': 'id', 'x': 'id',
               'y': 'id', 'z': 'id', '0': 'number', '1': 'number', '2': 'number', '3': 'number',
               '4': 'number','5': 'number', '6': 'number', '7': 'number', '8': 'number', '9': 'number',
-               '+':'idMais','-':'idMenos','=':'idIgual','>':'maior','<':'menor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
+               '+':'idMais','-':'idMenos','=':'idIgual','>':'idMaior','<':'idMenor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
             '(':'idAParenteses',')':'idFParenteses','{':'idAChave', '}':'idFChave', '[':'idAColchete',']':'idFColchete', ';':'idPontoVirgula', ',':'idVirgula','\n':'idEspaco',' ':'idEspaco'},
 
   'returnRR':{'a': 'id', 'b': 'id', 'c': 'id', 'd': 'id', 'e': 'id', 'f': 'id',
@@ -497,7 +497,7 @@ transitions = {
               's': 'id', 't': 'id', 'u': 'id', 'v': 'id', 'w': 'id', 'x': 'id',
               'y': 'id', 'z': 'id', '0': 'number', '1': 'number', '2': 'number', '3': 'number',
               '4': 'number','5': 'number', '6': 'number', '7': 'number', '8': 'number', '9': 'number',
-                '+':'idMais','-':'idMenos','=':'idIgual','>':'maior','<':'menor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
+                '+':'idMais','-':'idMenos','=':'idIgual','>':'idMaior','<':'idMenor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
             '(':'idAParenteses',')':'idFParenteses','{':'idAChave', '}':'idFChave', '[':'idAColchete',']':'idFColchete', ';':'idPontoVirgula', ',':'idVirgula','\n':'idEspaco',' ':'idEspaco'},
 
   'returnN':{'a': 'id', 'b': 'id', 'c': 'id', 'd': 'id', 'e': 'id', 'f': 'id',
@@ -516,7 +516,7 @@ transitions = {
               's': 'id', 't': 'id', 'u': 'id', 'v': 'id', 'w': 'id', 'x': 'id',
               'y': 'id', 'z': 'id', '0': 'number', '1': 'number', '2': 'number', '3': 'number',
               '4': 'number','5': 'number', '6': 'number', '7': 'number', '8': 'number', '9': 'number',
-               '+':'idMais','-':'idMenos','=':'igual','>':'maior','<':'menor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
+               '+':'idMais','-':'idMenos','=':'igual','>':'idMaior','<':'idMenor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
             '(':'idAParenteses',')':'idFParenteses','{':'idAChave', '}':'idFChave', '[':'idAColchete',']':'idFColchete', ';':'idPontoVirgula', ',':'idVirgula','\n':'idEspaco',' ':'idEspaco'},
 
   'floatL':{'a': 'id', 'b': 'id', 'c': 'id', 'd': 'id', 'e': 'id', 'f': 'id',
@@ -525,7 +525,7 @@ transitions = {
               's': 'id', 't': 'id', 'u': 'id', 'v': 'id', 'w': 'id', 'x': 'id',
               'y': 'id', 'z': 'id', '0': 'number', '1': 'number', '2': 'number', '3': 'number',
               '4': 'number','5': 'number', '6': 'number', '7': 'number', '8': 'number', '9': 'number',
-               '+':'idMais','-':'idMenos','=':'idIgual','>':'maior','<':'menor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
+               '+':'idMais','-':'idMenos','=':'idIgual','>':'idMaior','<':'idMenor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
             '(':'idAParenteses',')':'idFParenteses','{':'idAChave', '}':'idFChave', '[':'idAColchete',']':'idFColchete', ';':'idPontoVirgula', ',':'idVirgula','\n':'idEspaco',' ':'idEspaco'},
 
   'floatO':{'a': 'floatA', 'b': 'id', 'c': 'id', 'd': 'id', 'e': 'id', 'f': 'id',
@@ -534,7 +534,7 @@ transitions = {
               's': 'id', 't': 'id', 'u': 'id', 'v': 'id', 'w': 'id', 'x': 'id',
               'y': 'id', 'z': 'id', '0': 'number', '1': 'number', '2': 'number', '3': 'number',
               '4': 'number','5': 'number', '6': 'number', '7': 'number', '8': 'number', '9': 'number',
-               '+':'idMais','-':'idMenos','=':'idIgual','>':'maior','<':'menor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
+               '+':'idMais','-':'idMenos','=':'idIgual','>':'idMaior','<':'idMenor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
             '(':'idAParenteses',')':'idFParenteses','{':'idAChave', '}':'idFChave', '[':'idAColchete',']':'idFColchete', ';':'idPontoVirgula', ',':'idVirgula','\n':'idEspaco',' ':'idEspaco'},
   
    'floatA':{'a': 'id', 'b': 'id', 'c': 'id', 'd': 'id', 'e': 'id', 'f': 'id',
@@ -543,7 +543,7 @@ transitions = {
               's': 'id', 't': 'floatT', 'u': 'id', 'v': 'id', 'w': 'id', 'x': 'id',
               'y': 'id', 'z': 'id', '0': 'number', '1': 'number', '2': 'number', '3': 'number',
               '4': 'number','5': 'number', '6': 'number', '7': 'number', '8': 'number', '9': 'number',
-               '+':'idMais','-':'idMenos','=':'idIgual','>':'maior','<':'menor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
+               '+':'idMais','-':'idMenos','=':'idIgual','>':'idMaior','<':'idMenor','*':'idMultiplica','/':'idDivide','!':'idDiferente',
             '(':'idAParenteses',')':'idFParenteses','{':'idAChave', '}':'idFChave', '[':'idAColchete',']':'idFColchete', ';':'idPontoVirgula', ',':'idVirgula','\n':'idEspaco',' ':'idEspaco'},
   
   'floatT':{'a': 'id', 'b': 'id', 'c': 'id', 'd': 'id', 'e': 'id', 'f': 'id',
