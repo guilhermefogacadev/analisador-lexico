@@ -86,6 +86,8 @@ output_table = {
     'intAParenteses':'INT\nLBRACKETS\n',
     'whileAParenteses':'WHILE\nLBRACKETS\n',
     'voidAParenteses':'VOID\nLBRACKETS\n',
-    'elseAParenteses':'ELSE\nLBRACKETS',
-    'floatAParenteses':'FLOAT\nLBRACKETS',
+    'elseAParenteses':'ELSE\nLBRACKETS\n',
+    'floatAParenteses':'FLOAT\nLBRACKETS\n',
+    'idMenor':'ID\nLESS\n',
+    'idMaior':'ID\nGREATER\n',
 }
