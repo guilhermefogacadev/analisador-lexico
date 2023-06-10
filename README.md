@@ -21,6 +21,7 @@ pip install automata
 | ------ | ------ |
 | if | IF |
 | else |ELSE |
+| int | INT|
 | void | VOID |
 | while |WHILE|
 | return | RETURN|
