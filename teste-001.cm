@@ -1,0 +1,12 @@
+void a(){
+
+}
+int main(void)
+
+float a();
+
+int main(void){
+  if(!=1){
+    return main(i,a);
+  }
+}
